@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="CSS\shoppingcart_styles.css">
+  <style media="screen">
+  .payment {
+    text-align: center;
+  }
+
+  .logout {
+    text-align: center;
+  }
+
+  .btn{
+  height:40px;
+  width:200px;
+  font-family: 'Lobster', cursive;
+  border-radius:15px;
+  font-size:15px;
+  border:1px solid black;
+  margin-left:20px;
+
+    }
+
+  </style>
+</head>
+
+<body style="background-color: #EEEDDE;">
+  <img src="images\NEXTWARE TECH LOGO.png" title="NEXTWARE TECHNOLOGIES" class="" alt="">
+  <header>
+    <div class="x1">
+      <nav>
+        <h2>Your Cart</h2>
+        <ul>
+          <li><a href="http://localhost/cse3002proj/Productpage.html">Continue Shopping</a></li>
+          <li class="cart">
+            <a href="http://localhost/cse3002proj/shoppingcart.html">
+              <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <hr>
+  <br>
+  <div class="menubar">
+    <a href="http://localhost/cse3002proj/startingpage.html">Home</a>
+    <a href="http://localhost/cse3002proj/About.html">About</a>
+    <a href="http://localhost/cse3002proj/contactdetails.html">Contact Details</a>
+  </div>
+  <br>
+  <br>
+  <h1>Shopping Cart</h1>
+
+  <div class="products-container">
+    <div class="product-header">
+      <h5 class="products-title">PRODUCT</h5>
+      <h5 class="price">PRICE</h5>
+      <h5 class="quantity">QUANTITY</h5>
+      <h5 class="Total">TOTAL</h5>
+    </div>
+
+    <div class="products">
+
+
+    </div>
+
+
+  </div>
+
+  <form class="payment" action="Creditcardpaymentportal.html" method="post">
+    <h3>Click Here to Continue To Payment</h3>
+  <button class="btn" name="button">Continue To Payment</button>
+  </form>
+<br>
+  <form class = "logout" action="startingpage.html" method="post">
+ <h3>Click Here to Log Out !</h3>
+ <button class="btn">Log out</button>
+  </form>
+<br>
+  <footer class="footer1">
+    <p>Copyright @ Nextware Technologies</p>
+  </footer>
+<br>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="producty.js" charset="utf-8"></script>
+</body>
+
+</html>

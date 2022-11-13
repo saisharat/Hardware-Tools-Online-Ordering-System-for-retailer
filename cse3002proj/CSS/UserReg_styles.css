@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.container {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+
+.btn {
+  height: 40px;
+  width: 130px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  border: 2px solid black
+}
+
+div form {
+  display: block;
+  text-align: center;
+}
+
+
+form {
+
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.bg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+body {
+  font-family: 'Lobster', cursive;
+}
+
+#password {
+  height: 25px;
+  width: 220px;
+}
+
+input {
+  height: 25px;
+  width: 220px;
+}
+
+.gender {
+  height: 20px;
+  width: 70px;
+}
+
+img {
+  margin: auto;
+  height: 160px;
+  display: block;
+}
+
+fieldset {
+  background-color: #eeeeee;
+  padding: 2px;
+  text-align: center;
+}
+
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 7px;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+.footer1 {
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.centerx {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menubar {
+  text-align: center;
+}
+
+.menubar a {
+  color: black;
+  text-align: center;
+  padding: 10px 50px;
+  font-size: 20px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+.menubar a:hover {
+  background-color: grey;
+}

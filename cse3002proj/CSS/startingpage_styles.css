@@ -1,0 +1,56 @@
+.container {
+  margin: auto;
+  height: 150%;
+  width: 200%;
+  display: flex;
+  position: fixed;
+}
+
+.btn {
+  height: 40px;
+  width: 150px;
+  margin-left: 40px;
+  font-family: 'Lobster', cursive;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer1 {
+  background-color: #eeeeee;
+  text-align: center;
+  }
+
+  img {
+    margin: auto;
+    height: 160px;
+    display: block;
+  }
+
+  .menubar {
+    text-align: center;
+  }
+
+  .menubar a {
+    color: black;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+  }
+
+  .menubar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+  }

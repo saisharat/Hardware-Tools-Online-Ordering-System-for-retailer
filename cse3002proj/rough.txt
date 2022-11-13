@@ -1,0 +1,81 @@
+if ($con == true){
+ echo "<center><h1>Connection Succesfull!<h1><center>";
+ print("<img src=images/thank-removebg-preview.png>");
+}
+
+echo "<center><h1>Registration Successfull!<h1><center>";
+print("<img src=images/thank-removebg-preview.png>");
+echo"<br>";
+echo "<a href= http://localhost/cse3002proj/startingpage.html>Back to Home Page</a>";
+
+
+echo '<script type ="text/JavaScript">';
+echo 'alert("Username is empty")';
+echo '</script>';
+
+echo '<script type ="text/JavaScript">';
+echo 'alert("Login is Successfull")';
+echo '</script>';
+
+
+<a href= http://localhost/cse3002proj/startingpage.html>Back to Home Page</a>
+<li><a href="http://localhost/cse3002proj/About.html">About</a></li>
+
+
+function displayCart() {
+  let cartItems = localStorage.getItem("productsInCart");
+  cartItems = JSON.parse(cartItems);
+  let productContainer = document.querySelector('.products');
+  let cartCost = localStorage.getItem("totalCost");
+  if (cartItems && productContainer) {
+    productContainer.innerHTML = '';
+    Object.values(cartItems).map(item => {
+      productContainer.innerHTML += `<div class="product">
+      <ion-icon name="close-circle-outline"></ion-icon>
+      <img src="./images/${item.tag}.png">
+      <span>${item.tag}</span>
+      <div class="price">Rs${item.price},00</div>
+      <div class="quantity">
+      <ion-icon name="caret-back-circle"></ion-icon>
+      <span>${item.inCart}</span>
+      <ion-icon name="caret-forward-circle"></ion-icon></div>
+      <div class="Total">
+      Rs${item.inCart * item.price},00
+      </div>
+      `;
+    });
+
+    productContainer.innerHTML += `
+    <div class="basketTotalContainer">
+    <h4 class="basketTotalTitle">basket Total</h4>
+    <h4 class="basketTotal">
+    Rs${cartCost},00
+    </h4>
+    `;
+  }
+  deleteButtons();
+
+}
+
+
+// echo '<script type ="text/JavaScript">';
+// echo 'alert("Login is Successfull")';
+// echo '</script>';
+// echo "<center><h1>Registration Successfull!<h1><center>";
+// print("<img src=images/thank-removebg-preview.png>");
+// echo"<br>";
+// echo "<a href= http://localhost/cse3002proj/startingpage.html>Back to Home Page</a>";
+
+<a href= http://localhost/cse3002proj/startingpage.html>Back to Home Page</a>
+
+
+
+
+
+if ($datax)
+{
+  echo "Record deleted from database";
+}
+else {
+  echo "Record deletion failed from database";
+}

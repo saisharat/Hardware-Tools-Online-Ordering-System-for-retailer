@@ -1,0 +1,73 @@
+.btn {
+  height: 40px;
+  width: 220px;
+  font-family: 'Lobster', cursive;
+  border-radius: 20px;
+  font-size: 20px;
+  border: 2px solid black;
+  margin-left: 60px;
+  background-color: black;
+  color: white;
+}
+
+body {
+  font-family: 'Lobster', cursive;
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  font-size: 24px;
+  height: 30px;
+  width: 220px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+div form {
+  display: block;
+  text-align: center;
+}
+form {
+
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  height: 160px;
+  display: block;
+}
+
+.footer1 {
+  background-color: #eeeeee;
+  text-align: center;
+  }
+
+  .centerx {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menubar {
+    text-align: center;
+  }
+
+  .menubar a {
+    color: black;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+  }
+
+  .menubar a:hover {
+    background-color: grey;
+  }

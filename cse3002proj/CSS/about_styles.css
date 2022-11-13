@@ -1,0 +1,32 @@
+.footer1 {
+  background-color: #eeeeee;
+  text-align: center;
+  }
+
+  img {
+    margin: auto;
+    height: 160px;
+    display: block;
+  }
+
+  .menubar {
+    text-align: center;
+  }
+
+  .menubar a {
+    color: black;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+  }
+
+  .menubar a:hover {
+    background-color: grey;
+  }
+
+  h1 {
+    text-align: center;
+
+  }

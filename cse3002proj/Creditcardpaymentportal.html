@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Payment-Portal</title>
+  <link rel="stylesheet" href="CSS\creditcartpage_style.css">
+</head>
+
+<style media="screen">
+  img {
+    margin: auto;
+    height: 160px;
+    display: block;
+  }
+
+  .footer1 {
+    background-color: #eeeeee;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .btn {
+    height: 40px;
+    width: 200px;
+    font-family: 'Lobster', cursive;
+    border-radius: 15px;
+    font-size: 15px;
+    border: 1px solid black;
+    margin-left: 50px;
+
+  }
+</style>
+
+<body style="background-color: #EEEDDE;">
+
+  <img src="images\NEXTWARE TECH LOGO.png" title="NEXTWARE TECHNOLOGIES" class="" alt="">
+
+
+  <br>
+  <header>
+    <div class="x1">
+      <nav>
+        <h2>Your Orders</h2>
+        <ul>
+          <li><a href="http://localhost/cse3002proj/Productpage.html">Continue Shopping</a></li>
+          <li class="cart">
+            <a href="http://localhost/cse3002proj/shoppingcart.html">
+              <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <hr>
+  <br>
+  <div class="menubar">
+    <a href="http://localhost/cse3002proj/startingpage.html">Home</a>
+    <a href="http://localhost/cse3002proj/About.html">About</a>
+    <a href="http://localhost/cse3002proj/contactdetails.html">Contact Details</a>
+  </div>
+  <br>
+  <br>
+  <h1>Credit Card Payment</h1>
+  <br>
+  <br>
+  <h2>Order Summary</h2>
+
+  <div class="products-container">
+    <div class="product-header">
+      <h5 class="products-title">PRODUCT</h5>
+      <h5 class="price">PRICE</h5>
+      <h5 class="quantity">QUANTITY</h5>
+      <h5 class="Total">TOTAL</h5>
+    </div>
+
+    <div class="products">
+
+
+    </div>
+
+    <form class="" action="paymentinfo.php" method="post">
+      <br>
+      <br>
+      <h2>Billing and Shipping Details</h2>
+      <br>
+
+      <fieldset>
+        <legend>Billing Address</legend>
+        <label>Email Address: </label>
+        <input type="text" name="email" value="" required placeholder="Email">
+        <br>
+        <br>
+        <label for="">First Name:</label>
+        <input type="text" name="firstname" value="" required placeholder="First Name">
+
+        <label>&emsp;&emsp;Last name: </label>
+        <input type="text" name="lastname" value="" required placeholder="Last Name">
+        <br>
+        <br>
+        <label>Address: </label> <br>
+        <textarea name="address" rows="4" cols="50" required placeholder="Address"></textarea> <br>
+        <br>
+        <br>
+        <label>Country:</label>
+        <input type="text" name="country" value="" required placeholder="Country. Ex: India">
+        <label>&emsp;&emsp;Zip Code:</label>
+        <input type="text" name="zipcode" value="" required placeholder="zip code ex: 507001">
+        <br>
+        <br>
+
+        <label>City:</label>
+        <input type="text" name="city" value="" required placeholder="City">
+
+        <label>&emsp;&emsp;State:</label>
+        <input type="text" name="state" value="" required placeholder="State">
+        <br>
+        <br>
+        <label>Mobile Number: </label>
+        <input type="text" name="phone" value="" required placeholder="Mobile/Phone Number">
+        <br>
+        <br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Shipping Address</legend>
+        <label>Name:</label>
+        <input type="text" name="sname" value="" required placeholder="Name">
+        <br>
+        <br>
+        <label for="">Business Name:</label>
+        <input type="text" name="sbusinessname" value="" required placeholder="Ex: Tarini Industries">
+        <br>
+        <br>
+        <label>Address: </label> <br>
+        <textarea name="saddress" rows="4" cols="50" required placeholder="Address"></textarea> <br>
+        <br>
+        <br>
+        <label>City:</label>
+        <input type="text" name="scity" value="" required placeholder="City">
+
+        <label>&emsp;&emsp;State:</label>
+        <input type="text" name="sstate" value="" required placeholder="State">
+        <br>
+        <br>
+
+        <label>Zip Code:</label>
+        <input type="text" name="szipcode" value="" required placeholder="zip code ex: 507001">
+
+        <label>&emsp;&emsp;Country:</label>
+        <input type="text" name="scountry" value="" required placeholder="Country. Ex: India">
+        <br><br>
+
+      </fieldset>
+      <br>
+      <br>
+      <h2>Credit Card and Payment Details</h2>
+
+      <fieldset>
+        <legend>Payment Details</legend>
+        <img class="img-responsive cc-img" src="http://www.prepbootstrap.com/Content/images/shared/misc/creditcardicons.png">
+        <hr>
+        <br>
+        <label>CARD NUMBER: </label>
+        <input type="text" name="cardno" value="" required placeholder="CARD NUMBER">
+        <br>
+        <br>
+        <label>EXPIRATION DATE: </label>
+        <input type="text" name="expdate" value="" required placeholder="MM/YY">
+        <br>
+        <br>
+        <label>CV CODE: </label>
+        <input type="text" name="cvc" value="" required placeholder="CVC">
+        <br>
+        <br>
+        <label>CARD OWNER: </label>
+        <input type="text" name="ownername" placeholder="Card Owner Names">
+        <br>
+        <br>
+
+      </fieldset>
+      <br>
+      <br>
+      <button class="btn"> Submit</button>
+      <button type="reset" class="btn" value="Reset">Reset</button>
+
+    </form>
+    <br>
+    <br>
+    <form class="logout" action="endpage.php" method="post">
+      <br>
+      <br>
+      <h3>Click Here for Order Payment !</h3>
+      <br>
+      <button class="btn">Pay Now</button>
+    </form>
+
+
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="producty.js" charset="utf-8"></script>
+
+
+  <footer class="footer1">
+    <p>Copyright @ Nextware Technologies</p>
+  </footer>
+  <br>
+
+</body>
+
+</html>

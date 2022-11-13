@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+
+.btn{
+  height:40px;
+  width:130px;
+color:white;
+font-family: 'Lobster', cursive;
+background-color: black;
+border-radius:20px;
+font-size:20px;
+border:2px solid black
+}
+
+form{
+font-size:20px;
+font-weight:bold;
+text-align: center;
+}
+
+body{
+  font-family: 'Lobster', cursive;
+}
+
+#password{
+height:25px;
+width:220px;
+}
+
+input{
+height:25px;
+width:220px;
+}
+
+.gender{
+height:20px;
+width:70px;
+}
+
+img {
+margin: auto;
+height: 160px;
+display: block;
+}
+
+.centerx {
+width: 100%;
+text-align: center;
+}
+
+.footer1 {
+background-color: #eeeeee;
+text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menubar {
+  text-align: center;
+}
+
+.menubar a {
+  color: black;
+  text-align: center;
+  padding: 10px 50px;
+  font-size: 20px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+.menubar a:hover {
+  background-color: grey;
+}

@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+img {
+  margin: auto;
+  height: 160px;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menubar {
+  text-align: center;
+}
+
+.menubar a {
+  color: black;
+  text-align: center;
+  padding: 10px 50px;
+  font-size: 20px;
+  border: 2px solid black;
+  text-decoration: none;
+}
+
+.menubar a:hover {
+  background-color: grey;
+}
+
+.footer1 {
+  background-color: #eeeeee;
+  text-align: center;
+  }
+
+header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.x1 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav li span {
+  padding-left: 5px;
+}
+
+li a {
+  padding: 5px;
+  text-decoration: none;
+  background-color: lightgrey;
+}
+
+.productx {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 53px;
+  padding-bottom: 100px;
+}
+
+.images {
+  margin-right: 25px;
+  margin-left: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.add-cart {
+  position: absolute;
+  width: 100%;
+  background-color: darkgrey;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
